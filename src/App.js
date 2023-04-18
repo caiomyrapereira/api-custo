@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter className="App">
       <Routes>
         <Route path="/" element={<Usuarios />}  />
-        <Route path="/perfil" element={<Perfil />}  />
+        <Route path="/perfil/:id?" element={<Perfil />}  />
       </Routes>
     </BrowserRouter>
   );
