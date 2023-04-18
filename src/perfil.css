@@ -1,0 +1,68 @@
+.perfil {
+    background-color: #1B1B1B;
+    min-height: 100vh;
+    color: white;
+}
+
+.dadosPessoas {
+    width: 314px;
+    background: linear-gradient(147.76deg, rgba(255, 255, 255, 0.064) 0%, rgba(255, 255, 255, 0.0304) 100%);
+}
+
+.buttonAcesso {
+    width: 316px;
+    height: 46px;
+
+    background: linear-gradient(90deg, #343434 0%, rgba(102, 102, 102, 0.51) 100%);
+    border-radius: 30px;
+}
+
+.localizeCep {
+    padding: 6px 16px;
+    gap: 10px;
+
+    width: 137px;
+    height: 33px;
+    color: #FFFFFF;
+    background: linear-gradient(147.76deg, rgba(255, 255, 255, 0.064) 0%, rgba(255, 255, 255, 0.0304) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.localizeCep:hover {
+    background-color: #C2719D;
+}
+
+.icone {
+    width: 34px !important;
+    height: 34px !important;
+}
+
+.imgCentral {
+    position: relative;
+    z-index: 1;
+}
+
+.imgDireita {
+    position: relative;
+    right: 10px;
+}
+
+.imgEsquerda {
+    position: relative;
+    left: 10px;
+}
+
+.titleBio {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 115.4%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+
+    color: #C2719D;
+
+}
