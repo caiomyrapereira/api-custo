@@ -1,0 +1,17 @@
+input, select {
+  width: 314px !important;
+}
+
+.form-check-input {
+  width: 1em !important;
+}
+
+.form-item {
+  width: fit-content;
+}
+
+.btn-submit {
+  width: 310px;
+  color: #fff;
+  background: linear-gradient(90deg, #5E9FC5 0%, #BB6393 100%);
+}
